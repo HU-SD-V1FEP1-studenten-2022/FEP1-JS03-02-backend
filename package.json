@@ -1,0 +1,13 @@
+{
+  "dependencies": {
+    "body-parser": "^1.19.2",
+    "cors": "^2.8.5",
+    "express": "^4.17.3",
+    "yargs": "^17.4.0"
+  },
+  "scripts": {
+    "start": "set NODE_ENV=development&& node src/backend.js",
+    "start:dev": "set NODE_ENV=development&& node src/backend.js",
+    "start:prod": "set NODE_ENV=production&& node src/backend.js"
+  }
+}
